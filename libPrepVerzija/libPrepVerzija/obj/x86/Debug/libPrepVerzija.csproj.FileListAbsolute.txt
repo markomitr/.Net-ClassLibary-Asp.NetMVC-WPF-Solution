@@ -1,0 +1,15 @@
+c:\users\marko\documents\visual studio 2010\Projects\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.exe
+c:\users\marko\documents\visual studio 2010\Projects\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.pdb
+c:\users\marko\documents\visual studio 2010\Projects\libPrepVerzija\libPrepVerzija\obj\x86\Debug\libPrepVerzija.exe
+c:\users\marko\documents\visual studio 2010\Projects\libPrepVerzija\libPrepVerzija\obj\x86\Debug\libPrepVerzija.pdb
+c:\users\marko\documents\visual studio 2010\Projects\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.exe.config
+C:\Users\Marko\Desktop\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.exe.config
+C:\Users\Marko\Desktop\libPrepVerzija\libPrepVerzija\obj\x86\Debug\libPrepVerzija.exe
+C:\Users\Marko\Desktop\libPrepVerzija\libPrepVerzija\obj\x86\Debug\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.exe
+C:\Users\Marko\Desktop\libPrepVerzija\libPrepVerzija\bin\Debug\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\obj\x86\Debug\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Debug\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Debug\libPrepVerzija.dll.config
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Debug\libPrepVerzija.dll
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\obj\x86\Debug\libPrepVerzija.dll

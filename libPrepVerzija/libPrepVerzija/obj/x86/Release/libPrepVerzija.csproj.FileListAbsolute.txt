@@ -1,0 +1,11 @@
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Release\libPrepVerzija.dll.config
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Release\libPrepVerzija.dll
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\bin\Release\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\obj\x86\Release\libPrepVerzija.dll
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\obj\x86\Release\libPrepVerzija.pdb
+C:\Users\Marko\Desktop\Proekt - Prip.ver.CFMA\Proekti\libPrepVerzija_Bck_vs2010\libPrepVerzija\obj\x86\Release\libPrepVerzija.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2013\Projects\ibVerzijaAppMVC\libPrepVerzija\libPrepVerzija\bin\Release\libPrepVerzija.dll.config
+C:\Users\Marko\Documents\Visual Studio 2013\Projects\ibVerzijaAppMVC\libPrepVerzija\libPrepVerzija\bin\Release\libPrepVerzija.dll
+C:\Users\Marko\Documents\Visual Studio 2013\Projects\ibVerzijaAppMVC\libPrepVerzija\libPrepVerzija\bin\Release\libPrepVerzija.pdb
+C:\Users\Marko\Documents\Visual Studio 2013\Projects\ibVerzijaAppMVC\libPrepVerzija\libPrepVerzija\obj\x86\Release\libPrepVerzija.dll
+C:\Users\Marko\Documents\Visual Studio 2013\Projects\ibVerzijaAppMVC\libPrepVerzija\libPrepVerzija\obj\x86\Release\libPrepVerzija.pdb

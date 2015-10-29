@@ -1,0 +1,125 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+    <div class="col col-md-1  hidden-sm hidden-xs" >
+        <img src="~/Sliki/Gotvac.gif" class="img-responsive"  style="max-height:80px; max-width:55px;"/>
+    </div>
+    <div class="col col-md-11">
+        <div class="page-header">
+            <h1><small><span class="label label-danger small"><em>beta</em></span></small>Инфо-Биро Готвач <small>Апликација за припрема на верзија.</small></h1>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <h3><i class="glyphicon glyphicon glyphicon-compressed"></i>Рецепт за апликација - Избери</h3>
+    @using (Html.BeginForm())
+    {
+        <div>
+            <ul class='nav nav-wizard nav-wizard-backnav'>
+                <li class='active'><a href='#step1' data-toggle="tab">1.Апликација</a></li>
+                <li><a href='#step2' data-toggle="tab">2.Датум</a></li>
+                <li><a href='#step3' data-toggle="tab">3.Фајлови</a></li>
+                <li><a href='#step4' data-toggle="tab">4.Процедури</a></li>
+                <li><a href='#step5' data-toggle="tab">5.Потврда</a></li>
+            </ul>
+            <hr />
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane active in" id="step1">
+                    <h4>Избери апликација</h4>
+                    <div class="btn-group  btn-group-justified" data-toggle="buttons">
+                        <label class="btn btn-primary btn-lg active">
+                            @Html.RadioButton("rbCFMA", "CFMA") @Html.Label("WTRG - CFMA")
+                        </label>
+                        <label class="btn btn-primary btn-lg">
+                            @Html.RadioButton("rbCFMAKS", "CFMAKS") @Html.Label("WTRG(Kosovo) - CFMAKS")
+                        </label>
+                        <label class="btn btn-primary btn-lg">
+                            @Html.RadioButton("rbAPT5MK", "APT5MK") @Html.Label("APT5Mk - KASA")
+                        </label>
+                    </div>
+                </div>
+                <div class="tab-pane fade text-center" id="step2">
+                    <h4>Избери датум</h4>
+                    <div class="input-append date search-query" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+                        @Html.TextBox("tbDatum", "", new { @class = "span2 search-query input-lg", size = "26", @readonly = "readonly" })
+                        <span class="add-on"><i class="glyphicon glyphicon-calendar" style="display:inline;"></i></span>
+                    </div>
+                </div>
+                <div class="tab-pane fade fade" id="step3">
+                    <h4>Избери фајлови</h4>
+                    <div class="btn-group  btn-group-justified" data-toggle="buttons">
+                        <div class="row">
+                            <label class="btn btn-primary active btn-lg">
+                                @Html.CheckBox("cbExe", true) @Html.Label("EXE")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbXml") @Html.Label("XML")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbRpt") @Html.Label("RPT")
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbDll") @Html.Label("DLL")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbIco") @Html.Label("ICO")
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade fade" id="step4">
+                    <h4>Избери процедури</h4>
+                    <div class="btn-group  btn-group-justified" data-toggle="buttons">
+                        <div class="row">
+                            <label class="btn btn-primary active btn-lg">
+                                @Html.CheckBox("cbSqlUpg", true) @Html.Label("Upgrade")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbSqlSp") @Html.Label(" SP_Proceduri")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbSqlRK") @Html.Label("RK_Proceduri")
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbSqlFix") @Html.Label("Fix_Funkci")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbSqlFn") @Html.Label("Fn_Funkcii")
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                @Html.CheckBox("cbSqlTrig") @Html.Label("Trigeri")
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade fade" id="step5">
+                    <div class="alert alert-success">
+                        Успешно избравте податоци за верзијата. Потврдете го изборот.
+                        <button class="btn btn-success btn-large" id="gotvi" data-loading-text="Готвам..." type="submit">
+                            <i class="glyphicon glyphicon-cog" style="margin-right:3px;"></i>Готви верзија?</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="row">
+    @Html.Raw("<div class=\"alert alert-danger\" role=\"alert\" " + @ViewBag.Prikazi + ">")
+        @ViewBag.Poraka
+    @Html.Raw("</div>")
+</div>
+    <div class="row" style="margin-top:50px; border-top:2px solid gray;">
+        <div class="alert alert-warning" role="alert">
+            <i class="glyphicon glyphicon-info-sign"></i>
+            За да почнете <b>од почеток</b> или да приготвите нова верзија. Кликнете на
+            <h4 style="display:inline-block;"><span class="label label-warning"> @Html.ActionLink("Сакам да готвам!", "Index", "", new { style = "color:white;" })  </span></h4>
+        </div>
+
+    </div>

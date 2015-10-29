@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Verzija>
+	<SQL>
+		<Server>*******</Server>
+		<Baza>Wtrg</Baza>	
+		<User>****</User>
+		<Password Type="Text">*****</Password>
+	</SQL>
+	<Export>
+		<Pateka>C:\Verzii\</Pateka>
+	</Export>
+	<Aplikacii>
+		<Program Ime="WTRG">
+			<PatekaSLN>D:\Rabota\InfoBiro\Proekti\wtrgt\WTrg.sln</PatekaSLN>
+			<PatekaVSexe>C:\Program Files\Microsoft Visual Studio .NET\Common7\IDE\devenv.exe</PatekaVSexe>
+			<PatekaXML>D:\Rabota\InfoBiro\Proekti\wtrgt\wtrgp\bin\</PatekaXML>
+			<PatekaRPT>D:\Rabota\InfoBiro\Proekti\wtrgt\wtrgp</PatekaRPT>
+			<PatekaEXE>D:\Rabota\InfoBiro\Proekti\wtrgt\wtrgp\bin\WTrgP.exe</PatekaEXE>
+			<PatekaSQLupgrade>D:\Rabota\InfoBiro\Proekti\wtrgt\SQL\Upgrade2008.sql</PatekaSQLupgrade>
+			<Server></Server>
+			<Baza></Baza>
+			<User></User>
+			<Password Type="Text"></Password>
+		</Program>
+  		<Program Ime="WTRGKS">
+			<PatekaSLN>D:\Rabota\InfoBiro\Proekti\wTrgKs\WTrg.sln</PatekaSLN>
+			<PatekaVSexe>C:\Program Files\Microsoft Visual Studio .NET\Common7\IDE\devenv.exe</PatekaVSexe>
+			<PatekaXML>D:\Rabota\InfoBiro\Proekti\wTrgKs\wtrgp\bin\</PatekaXML>
+			<PatekaRPT>D:\Rabota\InfoBiro\Proekti\wTrgKs\wtrgp</PatekaRPT>
+			<PatekaEXE>D:\Rabota\InfoBiro\Proekti\wTrgKs\wtrgp\bin\WTrgKS.exe</PatekaEXE>
+			<PatekaSQLupgrade>D:\Rabota\InfoBiro\Proekti\wTrgKs\SQL\Upgrade.sql</PatekaSQLupgrade>
+			<Server></Server>
+			<Baza>WtrgKS</Baza>
+			<User></User>
+			<Password Type="Text"></Password>
+		</Program>
+	</Aplikacii>
+</Verzija>

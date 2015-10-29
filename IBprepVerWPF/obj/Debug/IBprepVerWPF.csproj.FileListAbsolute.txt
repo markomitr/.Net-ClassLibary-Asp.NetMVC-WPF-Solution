@@ -1,0 +1,15 @@
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\bin\Debug\IBprepVerWPF.exe.config
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\bin\Debug\IBprepVerWPF.exe
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\bin\Debug\IBprepVerWPF.pdb
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\bin\Debug\libPrepVerzija.dll
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\bin\Debug\libPrepVerzija.pdb
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.csprojResolveAssemblyReference.cache
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\MainWindow.baml
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\MainWindow.g.cs
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\App.g.cs
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF_MarkupCompile.cache
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.g.resources
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.Properties.Resources.resources
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.csproj.GenerateResource.Cache
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.exe
+c:\users\marko\documents\visual studio 2013\Projects\ibVerzijaAppMVC\IBprepVerWPF\obj\Debug\IBprepVerWPF.pdb
