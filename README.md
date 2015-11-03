@@ -1,6 +1,8 @@
 # .net-ClassLibary-Asp.NetMVC-WPF-Solution
 Class libary + Asp.Net MVC + WPF complex update solution
 
+![Preview](https://github.com/markomitr/.Net-ClassLibary-Asp.NetMVC-WPF-Solution/blob/master/MVC-SoftwareUpdate.PNG)
+
 This purpose of this solution is to gather all the data and generate ZIP file as a package for a software update.
 
 The solution contains:
